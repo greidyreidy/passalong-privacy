@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Passalong privacy policy</title>
+<style>
+:root { color-scheme: light dark; --text: #1a1a1a; --bg: #fff; --muted: #555; }
+@media (prefers-color-scheme: dark) { :root { --text: #eee; --bg: #161616; --muted: #aaa; } }
+body { font: 16px/1.6 system-ui, sans-serif; color: var(--text); background: var(--bg); max-width: 680px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 26px; margin-bottom: 4px; }
+h2 { font-size: 18px; margin-top: 32px; }
+.updated { color: var(--muted); margin-top: 0; }
+</style>
+</head>
+<body>
+<h1>Passalong privacy policy</h1>
+<p class="updated">Last updated: November 9, 2026</p>
+
+<p>Passalong is a browser extension that moves conversations between AI chat services. It has no servers and no accounts. The developer receives nothing unless you choose to email a problem report.</p>
+
+<h2>What Passalong reads</h2>
+<ul>
+  <li><strong>Chat pages.</strong> When you click Save this chat, or Continue while a chat you saved is the one open, Passalong reads the conversation on the open page on chatgpt.com, claude.ai, gemini.google.com, grok.com or muse.ai. It may scroll the page to load older messages. No chat is read in the background. While the panel is open, switching tabs only checks whether the page has a prompt box, so the panel can show whether it is connected.</li>
+  <li><strong>Files you choose.</strong> Session files, chats saved as Markdown or text, and export files that you pick in a file dialog.</li>
+  <li><strong>Problem reports.</strong> If saving or filling fails, you can click Copy problem report. Passalong then looks at how that page is built (which of its elements exist and how many), never at what it says, and puts the report on your clipboard after showing it to you. It goes nowhere unless you paste it somewhere yourself. If you email it to the developer, the developer sees what the report contains, which is no chat text, plus the version, your browser, the site and your email address.</li>
+</ul>
+<p>Passalong does not read passwords, cookies or session tokens, and does not call those services' private endpoints.</p>
+
+<h2>Where your data is stored</h2>
+<p>Saved conversations, project notes and settings stay on your device, in your browser profile's extension storage (IndexedDB). They are not encrypted beyond what your browser profile provides, and anyone with access to that profile could read them.</p>
+<p>Passalong makes no network requests of its own, so nothing is sent to the developer or to any third party, and there is no telemetry or analytics.</p>
+
+<h2>When data leaves your device</h2>
+<p>Only when you do it. Continue in fills a prompt box and attaches a file on the service you picked, and you press send yourself. What you send then goes to that service under its own terms and privacy policy. Export and Save handoff to a folder write plain, unencrypted files to a place you choose.</p>
+
+<h2>Deleting your data</h2>
+<p>Use Delete on a thread, or Delete all data in the side panel. Removing the extension also removes its stored data. Files you exported or saved are yours to delete.</p>
+
+<h2>Limited Use</h2>
+<p>The developer intends the use of information received through this extension to follow the Chrome Web Store User Data Policy, including its Limited Use requirements. Specifically:</p>
+<ul>
+  <li>Information is used only to provide the extension's single purpose: moving your conversations between AI chat services at your request.</li>
+  <li>Information is not transferred to anyone, except when you send it to a service yourself.</li>
+  <li>Information is not used or transferred for personalized advertising, or to determine creditworthiness or for lending.</li>
+  <li>No person reads your information, because it never leaves your device through Passalong.</li>
+</ul>
+
+<h2>Not affiliated</h2>
+<p>Passalong works with these services but is not affiliated with OpenAI, Anthropic, Google, SpaceXSI (formerly xAI) or Meta.</p>
+
+<h2>Changes and contact</h2>
+<p>If this policy changes, the date above will change with it. Questions: <a href="mailto:greidygithub@gmail.com">greidygithub@gmail.com</a>.</p>
+</body>
+</html>
